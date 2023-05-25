@@ -8,7 +8,6 @@ public class Zoo {
         Ave ave = new Ave("Ave genérica");
         Pinguim pinguim = new Pinguim("Pinguim Imperador");
         Peixe peixe = new Peixe("Peixe genérico");
-        Peixe peixe2 = new Peixe("Peixe genérico2");
         Salmon salmon = new Salmon("Salmão real");
         Anfibio anfibio = new Anfibio("Anfíbio genérico");
         Sapo sapo = new Sapo("Sapo cururu");
