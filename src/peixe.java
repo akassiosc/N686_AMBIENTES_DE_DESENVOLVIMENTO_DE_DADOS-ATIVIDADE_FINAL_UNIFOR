@@ -1,4 +1,4 @@
-public public class Peixe extends Animal {
+public class Peixe extends Animal {
     public Peixe(String nome) {
         super(nome);
     }
@@ -13,5 +13,10 @@ public public class Peixe extends Animal {
 
     public String reproducaoPeixe() {
         return "A reprodução deste peixe é desconhecida.";
+    }
+
+    @Override
+    public String toString() {
+        return "Peixe []";
     }
 }
