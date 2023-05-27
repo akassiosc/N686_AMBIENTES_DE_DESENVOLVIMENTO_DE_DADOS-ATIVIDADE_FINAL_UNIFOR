@@ -1,4 +1,9 @@
 public class Tartaruga extends Reptil {
+    @Override
+    public String reproducaoSapo() {
+        return "A tartaruga reproduz de maneira semelhante a um sapo.";
+    }
+    
     public Tartaruga(String nome) {
         super(nome);
     }
