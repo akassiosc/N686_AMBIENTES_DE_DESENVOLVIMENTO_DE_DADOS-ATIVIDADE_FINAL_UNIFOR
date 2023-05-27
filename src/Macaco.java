@@ -14,4 +14,11 @@ public class Macaco extends Mamifero {
     public String reproducaoMacaco() {
         return "Este macaco reproduz de maneira específica.";
     }
+    
+    @Override
+    public String reproducaoReptil() {
+        return "Este macaco reproduz de maneira semelhante a um réptil.";
+    }
+
+
 }
