@@ -1,4 +1,8 @@
 public class Reptil extends Animal {
+    public String reproducaoSapo() {
+        return "A reprodução deste réptil é desconhecida.";
+    }
+    
     public Reptil(String nome) {
         super(nome);
     }
