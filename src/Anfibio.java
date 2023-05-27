@@ -16,4 +16,8 @@ public class Anfibio extends Animal {
         return "A reprodução deste anfíbio é desconhecida.";
     }
     
+    public String reproducaoPinguim() {
+        return "A reprodução deste anfíbio é desconhecida.";
+    }
+    
 }
