@@ -14,4 +14,8 @@ public class Pinguim extends Ave {
     public String reproducaoPinguim() {
         return "Este pinguim reproduz de maneira específica.";
     }
+    @Override
+    public String reproducaoSalmon() {
+        return "O pinguim reproduz de maneira semelhante a um salmão.";
+    }
 }

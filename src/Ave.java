@@ -14,4 +14,7 @@ public class Ave extends Animal {
     public String reproducaoAve() {
         return "A reprodução desta ave é desconhecida.";
     }
+    public String reproducaoSalmon() {
+        return "A reprodução desta ave é desconhecida.";
+    }
 }
