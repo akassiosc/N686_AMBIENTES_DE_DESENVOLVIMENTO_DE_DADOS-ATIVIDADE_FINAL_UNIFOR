@@ -15,6 +15,10 @@ public class Peixe extends Animal {
         return "A reprodução deste peixe é desconhecida.";
     }
 
+    public String reproducaoMacaco() {
+        return "A reprodução deste peixe é desconhecida.";
+    }
+    
     @Override
     public String toString() {
         return "Peixe []";

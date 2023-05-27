@@ -15,4 +15,10 @@ public class Salmon extends Peixe {
     public String reproducaoSalmon() {
         return "Este salmão reproduz de maneira específica.";
     }
+
+    @Override
+    public String reproducaoMacaco() {
+        return "O salmão reproduz de maneira semelhante a um macaco.";
+    }
+    
 }
