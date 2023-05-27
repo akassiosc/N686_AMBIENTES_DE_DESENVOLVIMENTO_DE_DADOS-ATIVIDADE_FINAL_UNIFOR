@@ -8,10 +8,10 @@ public class Zoo {
         Ave ave = new Ave("Ave genérica");
         Pinguim pinguim = new Pinguim("Pinguim Imperador");
         Peixe peixe = new Peixe("Peixe genérico");
-        Peixe peixe2 = new Peixe("Peixe genérico2")
         Salmon salmon = new Salmon("Salmão real");
         Anfibio anfibio = new Anfibio("Anfíbio genérico");
         Sapo sapo = new Sapo("Sapo cururu");
+        Sapo sapoBoi = new Sapo("Sapo Boi");
 
         System.out.println(animal.getNome());
         System.out.println(mamifero.tipoMamifero());
@@ -24,6 +24,7 @@ public class Zoo {
         System.out.println(salmon.tipoSalmon());
         System.out.println(anfibio.tipoAnfibio());
         System.out.println(sapo.tipoSapo());
+        System.out.println("Esse e o " + sapoBoi.getNome() + " e o som que ele produz : " + sapoBoi.reproducaoSapo());
     }
 }
 

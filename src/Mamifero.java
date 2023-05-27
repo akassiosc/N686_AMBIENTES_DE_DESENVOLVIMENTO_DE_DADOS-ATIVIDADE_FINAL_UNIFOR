@@ -1,4 +1,9 @@
 public class Mamifero extends Animal {
+
+    public String reproducaoReptil() {
+        return "A reprodução deste mamífero é desconhecida.";
+    }
+
     public Mamifero(String nome) {
         super(nome);
     }
